@@ -1,4 +1,7 @@
-1)¿Qué significa que los estilos se apliquen en cascada? ¿cómo aplica la herencia de estilos?
+##Trabajo practico Nro. 3 
+
+
+##1)¿Qué significa que los estilos se apliquen en cascada? ¿cómo aplica la herencia de estilos?
 
  CSS significa cascading style sheets (hojas de estilo en cascada) y, por lo tanto, no debería extrañarnos que la cascada sea un concepto importante. Es el mecanismo que controla el resultado final cuando se aplican varias declaraciones CSS contrapuestas al mismo elemento.
 
@@ -15,7 +18,7 @@ La herencia en CSS es el mecanismo mediante el cual determinadas propiedades de 
 El hecho de que las propiedades heredadas tengan algún efecto o no depende de otros factores, como veremos más adelante cuando hablemos de la cascada. De la misma manera que una madre de ojos azules puede tener un hijo de ojos marrones si el padre tiene los ojos marrones, las propiedades heredadas en CSS pueden anularse.
 
 
-2)¿Por qué es necesario utilizar un CSS de Reset?
+##2)¿Por qué es necesario utilizar un CSS de Reset?
 
 Es importante utilizar css reset ya que brinda las siguientes ventajas:
 
@@ -25,7 +28,7 @@ Es importante utilizar css reset ya que brinda las siguientes ventajas:
 
 -Desarrollo más lógico. Una vez agregada la hoja de reset, el proceso final consistirá en agregar nuevos estilos en lugar de sobrescribirlos.
 
-3)¿Qué es el CSS box model?
+##3)¿Qué es el CSS box model?
 
 El modelo de cajas es la base del diseño web, cada elemento se representa como una caja rectangular, con su contenido, padding (espacio interior), borde y margen construidos uno sobre otro como las capas de una cebolla. El navegador, para interpretar el diseño de una página, procesa los estilos que se aplicarán a cada caja, el tamaño de las capas de la cebolla y la ubicación de unas cajas con respecto a otras.
 
