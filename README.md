@@ -1,9 +1,9 @@
-##Trabajo practico Nro. 3 
+Trabajo practico Nro. 3 
 
 
-##1)¿Qué significa que los estilos se apliquen en cascada? ¿cómo aplica la herencia de estilos?
+1)Â¿QuÃ© significa que los estilos se apliquen en cascada? Â¿cÃ³mo aplica la herencia de estilos?
 
- CSS significa cascading style sheets (hojas de estilo en cascada) y, por lo tanto, no debería extrañarnos que la cascada sea un concepto importante. Es el mecanismo que controla el resultado final cuando se aplican varias declaraciones CSS contrapuestas al mismo elemento.
+ CSS significa cascading style sheets (hojas de estilo en cascada) y, por lo tanto, no deberÃ­a extraÃ±arnos que la cascada sea un concepto importante. Es el mecanismo que controla el resultado final cuando se aplican varias declaraciones CSS contrapuestas al mismo elemento.
 
 Hay tres conceptos principales que controlan el orden en el que se aplican las declaraciones de CSS:
 
@@ -13,65 +13,65 @@ Hay tres conceptos principales que controlan el orden en el que se aplican las d
 
 -Orden en las fuentes.
 
-La herencia en CSS es el mecanismo mediante el cual determinadas propiedades de un elemento padre se transmiten a sus hijos. De hecho, se parece mucho a la herencia genética. Si los progenitores tienen los ojos azules, los hijos seguramente también tendrán los ojos azules.Todos los elementos de un documento HTML heredan todas las propiedades heredables de su padre excepto el elemento raíz (html), que no tiene progenitor.
+La herencia en CSS es el mecanismo mediante el cual determinadas propiedades de un elemento padre se transmiten a sus hijos. De hecho, se parece mucho a la herencia genÃ©tica. Si los progenitores tienen los ojos azules, los hijos seguramente tambiÃ©n tendrÃ¡n los ojos azules.Todos los elementos de un documento HTML heredan todas las propiedades heredables de su padre excepto el elemento raÃ­z (html), que no tiene progenitor.
 
-El hecho de que las propiedades heredadas tengan algún efecto o no depende de otros factores, como veremos más adelante cuando hablemos de la cascada. De la misma manera que una madre de ojos azules puede tener un hijo de ojos marrones si el padre tiene los ojos marrones, las propiedades heredadas en CSS pueden anularse.
+El hecho de que las propiedades heredadas tengan algÃºn efecto o no depende de otros factores, como veremos mÃ¡s adelante cuando hablemos de la cascada. De la misma manera que una madre de ojos azules puede tener un hijo de ojos marrones si el padre tiene los ojos marrones, las propiedades heredadas en CSS pueden anularse.
 
 
-##2)¿Por qué es necesario utilizar un CSS de Reset?
+2)Â¿Por quÃ© es necesario utilizar un CSS de Reset?
 
 Es importante utilizar css reset ya que brinda las siguientes ventajas:
 
--Elimina las diferencias entre navegadores. Con un reseteo preciso y abarcador se elimina la mayoría de las diferencias de interpretación entre los browsers, ya que tamaños, márgenes, grosores, bordes y otros formatos son igualados a un estilo único y homogéneo. Ver: cross-browser testing.
+-Elimina las diferencias entre navegadores. Con un reseteo preciso y abarcador se elimina la mayorÃ­a de las diferencias de interpretaciÃ³n entre los browsers, ya que tamaÃ±os, mÃ¡rgenes, grosores, bordes y otros formatos son igualados a un estilo Ãºnico y homogÃ©neo. Ver: cross-browser testing.
 
--Mayor libertad. El reseteo nos brinda una hoja en blanco sobre la que podemos construir nuestros propios estilos sin tener que luchar contra los estilos del browser, que muchas veces son difíciles de identificar (y, por lo tanto, de modificar).
+-Mayor libertad. El reseteo nos brinda una hoja en blanco sobre la que podemos construir nuestros propios estilos sin tener que luchar contra los estilos del browser, que muchas veces son difÃ­ciles de identificar (y, por lo tanto, de modificar).
 
--Desarrollo más lógico. Una vez agregada la hoja de reset, el proceso final consistirá en agregar nuevos estilos en lugar de sobrescribirlos.
+-Desarrollo mÃ¡s lÃ³gico. Una vez agregada la hoja de reset, el proceso final consistirÃ¡ en agregar nuevos estilos en lugar de sobrescribirlos.
 
-##3)¿Qué es el CSS box model?
+3)Â¿QuÃ© es el CSS box model?
 
-El modelo de cajas es la base del diseño web, cada elemento se representa como una caja rectangular, con su contenido, padding (espacio interior), borde y margen construidos uno sobre otro como las capas de una cebolla. El navegador, para interpretar el diseño de una página, procesa los estilos que se aplicarán a cada caja, el tamaño de las capas de la cebolla y la ubicación de unas cajas con respecto a otras.
+El modelo de cajas es la base del diseÃ±o web, cada elemento se representa como una caja rectangular, con su contenido, padding (espacio interior), borde y margen construidos uno sobre otro como las capas de una cebolla. El navegador, para interpretar el diseÃ±o de una pÃ¡gina, procesa los estilos que se aplicarÃ¡n a cada caja, el tamaÃ±o de las capas de la cebolla y la ubicaciÃ³n de unas cajas con respecto a otras.
 
-4)¿Cuál es el código que hay que insertar en una hoja de estilo para poder usar WebFonts?
+4)Â¿CuÃ¡l es el cÃ³digo que hay que insertar en una hoja de estilo para poder usar WebFonts?
 
-Primero se agrega en el css la anotación @font-face y dentro de ella se especifica el nombre de la fuente, las urls necesarias, weight y style de la fuente. Luego en el tag que queramos que tenga la fuente deseada se le agrega el atributo "font-family" donde se le especifica el nombre de la fuente y también es bueno especificar otras fuentes en caso de que el navegador no soporte la que el diseñador desee.
+Primero se agrega en el css la anotaciÃ³n @font-face y dentro de ella se especifica el nombre de la fuente, las urls necesarias, weight y style de la fuente. Luego en el tag que queramos que tenga la fuente deseada se le agrega el atributo "font-family" donde se le especifica el nombre de la fuente y tambiÃ©n es bueno especificar otras fuentes en caso de que el navegador no soporte la que el diseÃ±ador desee.
 
-5) ¿Qué son y para qué sirven los pseudoElementos?
+5) Â¿QuÃ© son y para quÃ© sirven los pseudoElementos?
 
 
-los pseudo-elementos se añaden a los selectores, pero, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera línea del elemento especificado por el selector.
+los pseudo-elementos se aÃ±aden a los selectores, pero, no describen un estado especial sino que, permiten aÃ±adir estilos a una parte concreta del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera lÃ­nea del elemento especificado por el selector.
 
-6) ¿Cómo se calcula la prioridad de una regla CSS? Expresarlo como una fórmula matemática?
+6) Â¿CÃ³mo se calcula la prioridad de una regla CSS? Expresarlo como una fÃ³rmula matemÃ¡tica?
 La prioridad de una regla css se calcula de la siguiente manera:
-Peso = ABC (número de 3 cifras, cada una de las cuales se calcula contando los selectores de cada tipo según se indica a continuación)
-A = nº de selectores de ID (selectores que acceden al atributo “id” del elemento mediante “#”)
-B = nº de selectores de CLASE (selectores que acceden al atributo “class” del elemento mediante “.”)
-C = nº de selectores de HTML (selectores que acceden al tag html)
-Ejemplos ordenados de más a menos peso:
-#id1 .clase1 a (A=1, B=1, C=1 –> peso = 111)
-div#id1 a (A=1, B=0, C=2 –> peso = 102)
-.clase1 li.clase2 a (A=0, B=2, C=2 –> peso = 22)
-.clase1 (A=0, B=1, C=0 –> peso = 10)
-div a (A=0, B=0, C=2 –> peso = 2)
+Peso = ABC (nÃºmero de 3 cifras, cada una de las cuales se calcula contando los selectores de cada tipo segÃºn se indica a continuaciÃ³n)
+A = nÂº de selectores de ID (selectores que acceden al atributo â€œidâ€ del elemento mediante â€œ#â€)
+B = nÂº de selectores de CLASE (selectores que acceden al atributo â€œclassâ€ del elemento mediante â€œ.â€)
+C = nÂº de selectores de HTML (selectores que acceden al tag html)
+Ejemplos ordenados de mÃ¡s a menos peso:
+#id1 .clase1 a (A=1, B=1, C=1 â€“> peso = 111)
+div#id1 a (A=1, B=0, C=2 â€“> peso = 102)
+.clase1 li.clase2 a (A=0, B=2, C=2 â€“> peso = 22)
+.clase1 (A=0, B=1, C=0 â€“> peso = 10)
+div a (A=0, B=0, C=2 â€“> peso = 2)
 
 
 
-7) ¿Qué es el view port? ¿Cómo se configura? ¿qué problema soluciona?
+7) Â¿QuÃ© es el view port? Â¿CÃ³mo se configura? Â¿quÃ© problema soluciona?
 
-La etiqueta viewport nos permite a los que construimos sitios web o web apps, definir el ancho, alto y escala del área usada por el navegador para mostrar contenido.
+La etiqueta viewport nos permite a los que construimos sitios web o web apps, definir el ancho, alto y escala del Ã¡rea usada por el navegador para mostrar contenido.
 
-Al fijar el ancho o alto del viewport, los desarrolladores podemos usar un número fijo de pixeles (ej: 320, 480, etc) o usar dos constantes, device-width y device height respectivamente.Se considera una buena práctica configurar el viewport con algunas de estas dos constantes, en vez de un ancho o alto fijo.
+Al fijar el ancho o alto del viewport, los desarrolladores podemos usar un nÃºmero fijo de pixeles (ej: 320, 480, etc) o usar dos constantes, device-width y device height respectivamente.Se considera una buena prÃ¡ctica configurar el viewport con algunas de estas dos constantes, en vez de un ancho o alto fijo.
 
 
-8) ¿Qué son las media querys? Enumere los distintos tipos de medios y las principales características de cada uno de ellos.
+8) Â¿QuÃ© son las media querys? Enumere los distintos tipos de medios y las principales caracterÃ­sticas de cada uno de ellos.
 
-Las media queries son útiles cuando deseas modificar tu página web o aplicación en función del tipo de dispositivo (como una impresora o una pantalla) o de características y parámetros específicos (como la resolución de la pantalla o el ancho del viewport del navegador).
+Las media queries son Ãºtiles cuando deseas modificar tu pÃ¡gina web o aplicaciÃ³n en funciÃ³n del tipo de dispositivo (como una impresora o una pantalla) o de caracterÃ­sticas y parÃ¡metros especÃ­ficos (como la resoluciÃ³n de la pantalla o el ancho del viewport del navegador).
 
 Se utilizan para:
 
 -Aplicar estilos condicionales con las reglas-at @media e @import de CSS.
--Indicar medios específicos en los elementos <link>, <source> y otros elementos HTML.
--Testear y monitorizar los estados de los medios usando los métodos de javascript Window.matchMedia() y MediaQueryList.addListener().
+-Indicar medios especÃ­ficos en los elementos <link>, <source> y otros elementos HTML.
+-Testear y monitorizar los estados de los medios usando los mÃ©todos de javascript Window.matchMedia() y MediaQueryList.addListener().
 
 
 Tipos de medios:
@@ -82,7 +82,7 @@ Apto para todos los dispositivos.
 
 -print
 
-Destinado a material impreso y visualización de documentos en una pantalla en el modo de vista previa de impresión. 
+Destinado a material impreso y visualizaciÃ³n de documentos en una pantalla en el modo de vista previa de impresiÃ³n. 
 
 -screen
 
@@ -92,32 +92,32 @@ Destinado principalmente a las pantallas.
 
 Destinado a sintetizadores de voz.
 
-9) ¿En qué circunstancias se pueden utilizar las variables css? ¿Qué problemas pueden traer aparejadas? ¿Cuándo consideras que sería bueno utilizarlas?
+9) Â¿En quÃ© circunstancias se pueden utilizar las variables css? Â¿QuÃ© problemas pueden traer aparejadas? Â¿CuÃ¡ndo consideras que serÃ­a bueno utilizarlas?
 
-Las variables CSS son entidades creadas en las hojas de estilos (definidas por el desarrollador de estilos) que contienen valores específicos que se pueden volver a utilizar en un documento. Se establecen mediante la notación de propiedades personalizadas (por ejemplo, --main-color: black;) y se accede mediante la función var() (por ejemplo, color: var (--main-color);).
+Las variables CSS son entidades creadas en las hojas de estilos (definidas por el desarrollador de estilos) que contienen valores especÃ­ficos que se pueden volver a utilizar en un documento. Se establecen mediante la notaciÃ³n de propiedades personalizadas (por ejemplo, --main-color: black;) y se accede mediante la funciÃ³n var() (por ejemplo, color: var (--main-color);).
 
 Cuando se tiene que definir determinadas propiedades (por ejemplo un color) en distintas partes de un sitio web, estas variables ayudan a que solo se tenga que asignar dicha propiedad en un solo lugar, en una variable, y sea esta la que se utilice permitiendo de esta forma reducir la posibilidad de error (asegurando que todos tengas el mismo color) y facilitar el mantenimiento (cuando se quiera cambiar el color) ya que solo se debera cambiar la propiedad asignada a dicha variable para que todo lo que lo utilice cambie.
 
 Uno de los mayores problemas del uso de variables CSS es que no todos los navegadores lo soportan.
 
-10) CSS Grid Layout ¿Qué es? Explicar las reglas que intervienen en el armado de una grilla. ¿Qué ventajas y desventajas tiene frente a otros Layouts?
+10) CSS Grid Layout Â¿QuÃ© es? Explicar las reglas que intervienen en el armado de una grilla. Â¿QuÃ© ventajas y desventajas tiene frente a otros Layouts?
 
-CSS Grid layout contiente funciones de diseño dirigidas a los desarrolladores de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre partes de un control construido a partir de primitivas HTML.
+CSS Grid layout contiente funciones de diseÃ±o dirigidas a los desarrolladores de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseÃ±os diferentes. TambiÃ©n se destaca por permitir dividir una pÃ¡gina en Ã¡reas o regiones principales, por definir la relaciÃ³n en tÃ©rminos de tamaÃ±o, posiciÃ³n y capas entre partes de un control construido a partir de primitivas HTML.
 
-Al igual que las tablas, el grid layout permite a un autor alinear elementos en columnas y filas. Sin embargo, con CSS grid son posibles muchos más diseños y de forma más sencilla que con las tablas. Por ejemplo, los elementos secundarios de un contenedor de cuadrícula podrían posicionarse para que se solapen y se superpongan, de forma similar a los elementos posicionados en CSS.
+Al igual que las tablas, el grid layout permite a un autor alinear elementos en columnas y filas. Sin embargo, con CSS grid son posibles muchos mÃ¡s diseÃ±os y de forma mÃ¡s sencilla que con las tablas. Por ejemplo, los elementos secundarios de un contenedor de cuadrÃ­cula podrÃ­an posicionarse para que se solapen y se superpongan, de forma similar a los elementos posicionados en CSS.
 
-11) ¿Qué puntos en común y en que se diferencian las Material Design Guidelines de Google y las Human Interface Guidelines de Apple?
+11) Â¿QuÃ© puntos en comÃºn y en que se diferencian las Material Design Guidelines de Google y las Human Interface Guidelines de Apple?
 
-Google y Apple han desarrollado sus propios conjuntos de reglas, que indican cómo deberían ser sus aplicaciones en sus respectivos dispositivos. 
-Los dispositivos de Google se basan principalmente en Material Design, mientras que Apple se adhiere a las pautas de Human Interface. Si bien ambos buscan mejorar la experiencia de los usuarios (haciendo interfaces de uso más intuitivas, aprendibles y constantes), definiendo una apariencia común para sus aplicaciones, existen ciertas diferencias entre estos.
+Google y Apple han desarrollado sus propios conjuntos de reglas, que indican cÃ³mo deberÃ­an ser sus aplicaciones en sus respectivos dispositivos. 
+Los dispositivos de Google se basan principalmente en Material Design, mientras que Apple se adhiere a las pautas de Human Interface. Si bien ambos buscan mejorar la experiencia de los usuarios (haciendo interfaces de uso mÃ¡s intuitivas, aprendibles y constantes), definiendo una apariencia comÃºn para sus aplicaciones, existen ciertas diferencias entre estos.
 
-En cuanto a la profuncidad de los elementos. Google se ha inspirado en el diseño de movimientos planos, haciendo creer a las personas que interactuan con sus componentes como si fueran hojas de papel apiladas una encima de la otra. Mientras busca una profundidad en sus aplicaciones, utilizando componentes como sus botones y mensajes de texto con fondo borroso para crear la sensación de que los elementos están flotando y existen en su propio espacio.
+En cuanto a la profuncidad de los elementos. Google se ha inspirado en el diseÃ±o de movimientos planos, haciendo creer a las personas que interactuan con sus componentes como si fueran hojas de papel apiladas una encima de la otra. Mientras busca una profundidad en sus aplicaciones, utilizando componentes como sus botones y mensajes de texto con fondo borroso para crear la sensaciÃ³n de que los elementos estÃ¡n flotando y existen en su propio espacio.
 
-En cuanto a la animación de sus componentes. Google ve la animación como una forma de mejorar la experiencia del usuario y dar vida a sus componentes, utiliza una animación única para expresar el tipo de "material" con el que estás interactuando. Mientras que Apple tiene un enfoque sin sentido para la animación. Creen que la animación solo debería llevarte de A a B sin distraer al usuario del contenido real.
+En cuanto a la animaciÃ³n de sus componentes. Google ve la animaciÃ³n como una forma de mejorar la experiencia del usuario y dar vida a sus componentes, utiliza una animaciÃ³n Ãºnica para expresar el tipo de "material" con el que estÃ¡s interactuando. Mientras que Apple tiene un enfoque sin sentido para la animaciÃ³n. Creen que la animaciÃ³n solo deberÃ­a llevarte de A a B sin distraer al usuario del contenido real.
 
-En cuanto a la navegación. Google define una barra de navegación universal en la parte inferior. Este es un conjunto de tres botones (físicos o digitales, según el dispositivo) que funcionan como rutas de regreso, de inicio y de vista general. Mientras que Apple se adhiere a un enfoque un poco diferente. Ni sus dispositivos ni su interfaz tienen un botón de retroceso universal. Esto significa que los diseñadores deben garantizar una navegación decente dentro de la aplicación y agregar un indicador de retroceso en la esquina superior izquierda de cada página de la aplicación. La navegación en ambas plataformas también puede diferir en términos de uso y ubicación de las pestañas. Google a menudo utiliza un menú de hamburgesa para su navegación principal. Sin embargo, Apple no tiene la misma postura, ya que considera que los elementos de navegación principales deben estar presentes en una barra de pestañas en primer plano y que la hamburguesa se debe usar solo como un lugar para almacenar funciones que no son tareas diarias realizadas por el usuario.
+En cuanto a la navegaciÃ³n. Google define una barra de navegaciÃ³n universal en la parte inferior. Este es un conjunto de tres botones (fÃ­sicos o digitales, segÃºn el dispositivo) que funcionan como rutas de regreso, de inicio y de vista general. Mientras que Apple se adhiere a un enfoque un poco diferente. Ni sus dispositivos ni su interfaz tienen un botÃ³n de retroceso universal. Esto significa que los diseÃ±adores deben garantizar una navegaciÃ³n decente dentro de la aplicaciÃ³n y agregar un indicador de retroceso en la esquina superior izquierda de cada pÃ¡gina de la aplicaciÃ³n. La navegaciÃ³n en ambas plataformas tambiÃ©n puede diferir en tÃ©rminos de uso y ubicaciÃ³n de las pestaÃ±as. Google a menudo utiliza un menÃº de hamburgesa para su navegaciÃ³n principal. Sin embargo, Apple no tiene la misma postura, ya que considera que los elementos de navegaciÃ³n principales deben estar presentes en una barra de pestaÃ±as en primer plano y que la hamburguesa se debe usar solo como un lugar para almacenar funciones que no son tareas diarias realizadas por el usuario.
 
-En cuanto a la tipografia. Cada sistema tiene sus propias fuentes predeterminadas que se recomiendan para los diseñadores. La cual ayudan a crear una sensación de coherencia y apariencia nativa en toda la plataforma. Google sugiere Roboto como su fuente de sistema por defecto. Mientras que Apple prefiere la fuente San Francisco.
+En cuanto a la tipografia. Cada sistema tiene sus propias fuentes predeterminadas que se recomiendan para los diseÃ±adores. La cual ayudan a crear una sensaciÃ³n de coherencia y apariencia nativa en toda la plataforma. Google sugiere Roboto como su fuente de sistema por defecto. Mientras que Apple prefiere la fuente San Francisco.
 
 
 
