@@ -1,0 +1,43 @@
+ul li{
+    font-size: 25px;
+ margin-top: 20px;   
+}
+
+body{
+border: solid;
+    margin-bottom: black;
+    background-color: black;
+}
+figure{
+border:solid;
+    margin-bottom: black;
+
+    
+}
+a{
+   text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: cornflowerblue;
+}
+.video{
+    margin-left: 27%;
+}
+
+div{
+ 
+  
+  border:solid;
+    border-bottom-color: cornflowerblue;
+}
+h1{
+    border :solid;
+    margin-left: 5px;
+    color: cornflowerblue;
+border-bottom-color: cornflowerblue;
+    border-top-color: black;
+    border-left-color:black;
+    border-right:black;
+}
