@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 5 - Carrusel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="carrusel">
+        <div class="imagenes"></div>
+        
+        <button id="botonAtras" onclick="atras()">&#60</button>
+        <button id="botonAdelante" onclick="adelante()">&#62</button>
+    </div>
+    
+    <div id="progress">
+    <div id="barra"></div>
+    </div>
+    
+    <div class="botonesImagenes"></div>
+    
+    <div class="botonesOpciones">
+        <button class="botonOpcion play" id="botonPlay" onclick="iniciar()">PLAY</button>
+        <button class="botonOpcion animacion" id="botonAnimacion" onclick="cambiarAnimacion()">Cambiar Animacion</button>
+        <button class="botonOpcion stop" id="botonStop" onclick="parar()">STOP</button>
+    </div>
+    
+    <script src="js/conf.js"></script>
+    <script src="js/carrusel.js"></script>
+</body>
+</html>
