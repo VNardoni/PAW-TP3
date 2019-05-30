@@ -13,7 +13,7 @@ border: solid;
 background-color: skyblue;
 }
 .boton{
- margin-top: 50px;
+ margin-top: 60px;
     font-size: 12pt;
     height: auto;
     width: 20%;
@@ -30,6 +30,7 @@ border: solid;
 }
 body{
     background-color: skyblue;
-border: solid;
+    border: solid;
     border-color: black;
+    margin-bottom: 5px;
 }
